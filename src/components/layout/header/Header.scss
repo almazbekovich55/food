@@ -1,0 +1,35 @@
+#header {
+  padding: 10px 0;
+  background-color: #ffffff;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--logo {
+      img {
+        width: 83px;
+      }
+    }
+
+    &--nav {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      a {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: black;
+
+  &:hover,
+  &.active {
+    color: #BD1D1D;
+  }
+}
+
+    }
+  }
+}
